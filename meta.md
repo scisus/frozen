@@ -5,3 +5,5 @@
 
 * HanseaticLeagueThruHistory.qgs is a qgis project where maps were georeferenced
 * leaflettest.html is a basic working leaflet example
+*ex_mapboxleaflet.html is a basic working leaflet example with a custom style from mapbox
+
