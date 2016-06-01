@@ -1,12 +1,21 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.8.3-Wien">
+<qgis projectname="" version="2.8.6-Wien">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132604477" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenStreetMap_monochrome20160425175555361" name="OpenStreetMap monochrome">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132048866" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20160504194110681" name="OSM Mapnik">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenStreetMap_monochrome20160425175555361" name="OpenStreetMap monochrome">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_2820160425175856378" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28">
@@ -17,10 +26,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>1358190.190123385284096</xmin>
-      <ymin>6831471.87752662133425474</ymin>
-      <xmax>1868211.85992602119222283</xmax>
-      <ymax>7239662.54273824673146009</ymax>
+      <xmin>-57367.14612321881577373</xmin>
+      <ymin>5676841.84302611835300922</ymin>
+      <xmax>2793021.92607487784698606</xmax>
+      <ymax>7952808.73132654465734959</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -37,8 +46,10 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132604477"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap_monochrome20160425175555361"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425201157555"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132048866"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425205854138"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425210513686"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425205411308"/>
@@ -47,6 +58,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425192556282"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425193047980"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20160504194110681"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
@@ -55,17 +67,35 @@
       <item>OpenStreetMap_monochrome20160425175555361</item>
       <item>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_2820160425175856378</item>
       <item>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475</item>
+      <item>OSM_Mapnik20160504194110681</item>
+      <item>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132048866</item>
+      <item>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132604477</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132604477" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap monochrome" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenStreetMap_monochrome20160425175555361" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132048866" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160425213151475" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20160504194110681" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap monochrome" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="OpenStreetMap_monochrome20160425175555361" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28" showFeatureCount="0">
@@ -77,10 +107,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-32.75665362160725635</xmin>
-      <ymin>-4224.28886950106516451</ymin>
-      <xmax>7673.02747607130913821</xmax>
-      <ymax>13.31820033006169979</ymax>
+      <xmin>7012.94723345794955094</xmin>
+      <ymin>-4984.02945669906875992</ymin>
+      <xmax>8944.38729318491459708</xmax>
+      <ymax>-3921.88134635741334932</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -98,7 +128,7 @@
     </destinationsrs>
     <layer_coordinate_transform_info/>
   </mapcanvas>
-  <projectlayers layercount="4">
+  <projectlayers layercount="9">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_2820160425175856378</id>
       <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28.jpg</datasource>
@@ -185,9 +215,133 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132048866</id>
+      <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.490196" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Ausbreitung_der_Hanse_um_das_Jahr_1400_Droysens_28_modified20160531132604477</id>
+      <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28_modified</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.352941" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>OSM_Mapnik20160504194110681</id>
+      <datasource>.</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</attribution>
+      <layername>OSM Mapnik</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1.2"/>
+        <property key="credit" value="© OpenStreetMap contributors, CC-BY-SA"/>
+        <property key="creditVisibility" value="1"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="OSM Mapnik"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="19"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
       <id>OpenStreetMap_monochrome20160425175555361</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -224,6 +378,92 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Raster20160425202541600</id>
+      <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28.jpg</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Raster</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Raster20160504194246293</id>
+      <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28.jpg</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Raster</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Raster20160531130528576</id>
       <datasource>./maps/Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28.jpg</datasource>
       <title></title>
       <abstract></abstract>
