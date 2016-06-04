@@ -1,29 +1,87 @@
 <!DOCTYPE html>
 <html>
-
+<title>Frozen</title>
 <head>
 
    <meta charset="utf-8" />
-   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-   <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-   <style type="text/css">
-   html, body, #mapid { height: 100%; }
-   </style>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.3"></script>
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+<![endif]-->
+
+<style type="text/css">
+    html, body {
+        height: 100%;
+    }
+
+    #frozenmap {
+        height: 90%;
+    }
+    /* opacity slider/*/
+    #slide {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+</style>
 
 </head>
 
 <body>
 
- <div id="mapid">
-     <script type="text/javascript">
-     var mymap = L.map('mapid').setView([54.456, 17.0477], 5);
-    L.tileLayer('https://api.mapbox.com/styles/v1/scisus/cioxb3awm001ub9nk4037o3sj/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Npc3VzIiwiYSI6ImNpbmdmMmh1YzFrOXF2MGt2OTJmeDczYWQifQ.CAmpMFvhMuRTu4J7vuYN2w', {
+<div id="frozenmap"></div>
+<input id="slide" type="range" min="0" max="1" step="0.1" value="0.5" onchange="updateOpacity(this.value)">
+<input id="slide" type="range" min="0" max="1" step="0.1" value="0.5" onchange="baseupdateOpacity(this.value)">
+
+<script>
+
+
+/*var mapbox_tiles = L.tileLayer('https://api.mapbox.com/styles/v1/scisus/cioxb3awm001ub9nk4037o3sj/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Npc3VzIiwiYSI6ImNpbmdmMmh1YzFrOXF2MGt2OTJmeDczYWQifQ.CAmpMFvhMuRTu4J7vuYN2w', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
-}).addTo(mymap);
+});
+mapbox_tiles.addTo(frozen);*/
+
+    var frozen = L.map('frozenmap').setView([54.456, 17.0477], 5);
+    var imageURL = 'maps/json_AusbreitungderHanseumdasJahr1400Droysens28modified0.png',
+    imageBounds = [[46.351607926,-5.70244101907],[61.8250182375,33.9356552402]];
+    var overlay = new L.imageOverlay(imageURL, imageBounds)
+    var base = new L.StamenTileLayer("toner-lite");
+
+
+  /* var layer = new L.StamenTileLayer("toner-lite");
+
+    var map = new L.Map("mapid", {
+    center: new L.LatLng(54.456, 17.0477),
+    zoom: 5
+});
+frozen.addLayer(layer); */
+
+frozen.addLayer(base);
+frozen.addLayer(overlay);
+
+overlay.setOpacity(0.5);
+base.setOpacity(1);
+
+
+
+function updateOpacity(value) {
+    overlay.setOpacity(value);
+}
+
+function baseupdateOpacity(value) {
+    base.setOpacity(value);
+}
+
+
+
 </script>
- </div>
 
- </body>
+</body>
 
- </html>
+</html>
