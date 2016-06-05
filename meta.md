@@ -1,9 +1,7 @@
 # historical maps meta
 
-* maps folder containes maps
-* R leaflet folder contains a (currently aborted) attempt to use leaflet thru R.
-
+* maps folder contains maps
 * HanseaticLeagueThruHistory.qgs is a qgis project where maps were georeferenced
-* leaflettest.html is a basic working leaflet example
-*ex_mapboxleaflet.html is a basic working leaflet example with a custom style from mapbox
+
+Maps went through a variety of intermediate states. .points files hold georeferencing points. .tif files are the georeferenced maps. .png files are the final versions of the maps.
 
