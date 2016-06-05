@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Frozen</title>
+<head>
+
+   <meta charset="utf-8" />
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+    <style type="text/css">
+    html, body {
+        height: 100%;
+    }
+
+    #frozenmap {
+        height: 90%;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="frozenmap"></div>
+
+<script type="text/javascript">
+
+var oldmaps = new L.LayerGroup()
+    var imageURL = 'maps/json_AusbreitungderHanseumdasJahr1400Droysens28modified0.png',
+    imageBounds = [[46.351607926,-5.70244101907],[61.8250182375,33.9356552402]];
+    var aus = new L.imageOverlay(imageURL, imageBounds)
+    var stamen = new L.StamenTileLayer("toner-lite");
+
+aus.addTo(oldmaps)
+var frozen = L.map('frozenmap', {
+        zoomControl:true,
+        maxZoom:28,
+        minZoom:1,
+        layers: [stamen, aus]}).setView([54.456, 17.0477], 5);
+
+
+L.control.layers(stamen, oldmaps).addTo(frozen);
+
+
+        </script>
+        </body>
+        </html>
