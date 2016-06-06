@@ -39,14 +39,18 @@
 <div id="frozenmap"></div>
 <!--opacity sliders-->
 <input id="slide" type="range" min="0" max="1" step="0.1" value="1" onchange="stamenupdateOpacity(this.value)"> BaseMap
-<input id="slide", type="range" min="0" max="1" step="0.1" value=".5" onchange="updateOpacity(this.value)"> "The spread of the Hanseatic League in 1400
-
+<input id="slide", type="range" min="0" max="1" step="0.1" value=".5" onchange="ausupdateOpacity(this.value)"> The spread of the Hanseatic League in 1400
+<input id="slide", type="range" min="0" max="1" step="0.1" value=".5" onchange="bremenupdateOpacity(this.value)"> Bremen and surrounding area circa 1666
 
 <script type="text/javascript">
 
-    var imageURL = 'maps/json_AusbreitungderHanseumdasJahr1400Droysens28modified0.png',
-    imageBounds = [[46.351607926,-5.70244101907],[61.8250182375,33.9356552402]];
-    var ausbrietung = new L.imageOverlay(imageURL, imageBounds)
+    var ausbrietungimageURL = 'maps/AusbreitungderHanseumdasJahr1400Droysens28.png',
+    ausbrietungimageBounds = [[46.351607926,-5.70244101907],[61.8250182375,33.9356552402]];
+    var ausbrietung = new L.imageOverlay(ausbrietungimageURL, ausbrietungimageBounds)
+
+    var bremenimageURL = 'maps/Bremen1666.png', bremenimageBounds = [[52.9690231756,8.58967191318],[53.2038104196,8.99050966206]];
+    var bremen = new L.imageOverlay(bremenimageURL, bremenimageBounds)
+
     var stamen = new L.StamenTileLayer("toner-lite");
 
 var frozen = L.map('frozenmap', {
@@ -60,7 +64,8 @@ var baseLayers = {
 };
 
 var oldmaps = {
-    "The spread of the Hanseatic League in 1400": ausbrietung
+    "The spread of the Hanseatic League in 1400": ausbrietung,
+    "Bremen and surrounding area circa 1666": bremen
 };
 
 
@@ -85,13 +90,17 @@ L.control.scale({options: {position: 'bottomleft', maxWidth: 100, metric: true, 
 /* opacity */
 stamen.setOpacity(1);
 aus.setOpacity(0.5);
+bremen.setOpacity(0.5)
 
 
 function stamenupdateOpacity(value) {
     stamen.setOpacity(value);
 };
-function updateOpacity(value) {
+function ausupdateOpacity(value) {
     ausbrietung.setOpacity(value);
+};
+function bremenupdateOpacity(value) {
+    bremen.setOpacity(value)
 };
 </script>
 
