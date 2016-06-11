@@ -2,3 +2,9 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.qgis filter=lfs diff=lfs merge=lfs -text
+maps/*.tif filter=lfs diff=lfs merge=lfs -text
+maps/*.jpg filter=lfs diff=lfs merge=lfs -text
+maps/*.png filter=lfs diff=lfs merge=lfs -text
+maps/OriginalAndIntermediateMaps/*.png filter=lfs diff=lfs merge=lfs -text
+maps/OriginalAndIntermediateMaps/*.tif filter=lfs diff=lfs merge=lfs -text
+maps/OriginalAndIntermediateMaps/*.jpg filter=lfs diff=lfs merge=lfs -text
