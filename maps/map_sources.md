@@ -17,6 +17,8 @@ Eigendliche anweisung wie deß heiligen Reichss Statt Bremen in diesen 1666 Jahr
 [link](http://mapy.mzk.cz/de/mzk03/001/060/201/2619268235/)
 
 Published sometime between 1666 and 1700
+
+## Maps not added yet
 *hanseatic_league_trading.jpg*
 From http://www.klitzfamily.com/Map_Germany.html
 *Hansekarte_800x600_trading.jpg*

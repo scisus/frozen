@@ -6,9 +6,11 @@ Historical maps from various sources with credits can be found in maps/sources.m
 
 Maps were georeferenced in QGIS with the [georeferencer plugin](http://docs.qgis.org/1.8/en/docs/user_manual/plugins/plugins_georeferencer.html). Original maps and points used for referencing are included in the maps folder.
 
-.PNGs of georeferenced maps were created with the qgis2web plugin for QGIS.
+pngs of georeferenced maps were created with the qgis2web plugin for QGIS.
 
-Interactive maps is created with leafletjs.
+Interactive map is created with [leafletjs](http://leafletjs.com/).
+
+[View map](http://frozen.scisus.org/).
 
 
 
